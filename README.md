@@ -2,8 +2,7 @@
 
 [Live Site](https://lambchat.netlify.app/)
 
-[![React-Firebase-Chat-App-Sign-In.png](https://i.postimg.cc/44DmPbt8/React-Firebase-Chat-App-Sign-In.png)](https://postimg.cc/yWT1YRL9)
-[![LambChat.png](https://i.postimg.cc/wxmB1yPD/LambChat.png)](https://postimg.cc/QVjDPtjM)
+<img src="https://media.giphy.com/media/sRRuez8HegKVHtCIzA/giphy.gif" alt="lambchat.gif" />
 
 ## Introduction
 This is an application developed primarily to utilize Firebase authentication. After signing in using Google or Facebook, the user is prompted to create a chat with other users. Created using React-Chat-Engine to offer Realtime Chat functionality.
