@@ -6,7 +6,7 @@
 [![LambChat.png](https://i.postimg.cc/wxmB1yPD/LambChat.png)](https://postimg.cc/QVjDPtjM)
 
 ## Introduction
-This is an application developed primarily to utilize Firebase authentication. After signing in using Google or Facebook, the user is prompted to create a chat with other users. This was created using React-Chat-Engine.
+This is an application developed primarily to utilize Firebase authentication. After signing in using Google or Facebook, the user is prompted to create a chat with other users. Created using React-Chat-Engine to offer Realtime Chat functionality.
 
 ### Setup
 - Create .env file in the root directory
