@@ -35,3 +35,4 @@ export const auth = firebase.initializeApp({
   measurementId: "YOUR_MEASUREMENT_ID"
 }).auth()
 ```
+- run ```npm i && npm start```
