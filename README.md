@@ -16,13 +16,16 @@ REACT_APP_CHAT_ENGINE_ID=(YOUR_CHAT_ENGINE_ID)
 ```
 - Navigate to /src and create a firebase.js file
 ```js
+import firebase from 'firebase/app'
+import 'firebase/auth'
+
 /* 
    This can be more easily obtained by creating a project in Firebase, then navigating to the project settings
    From there, in 'general' scroll down until you see SDK setup and configuration
    Select 'Config' and copy/paste the code given
 */
 
-const firebaseConfig = {
+export const auth = firebase.initializeApp({
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
   projectId: "YOUR_PROJECT_ID",
@@ -30,5 +33,5 @@ const firebaseConfig = {
   messagingSenderId: "YOUR_MESSAGE_SENDER_ID",
   appId: "YOUR_APP_ID",
   measurementId: "YOUR_MEASUREMENT_ID"
-};
+}).auth()
 ```
